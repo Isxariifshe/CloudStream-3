@@ -660,7 +660,7 @@
 
     <string name="limit_title">Xarfaha Cinwaanka filimka ee daaraha</string>
 
-    <string name="limit_title_rez">MAxa lagu qoraya Xaga sare e daaraha</string>
+    <string name="limit_title_rez">Maxa lagu qoraya Xaga sare e daaraha</string>
 
     <string name="video_buffer_size_settings">Xajmiga Kaydinta Muqaalka</string>
 
@@ -688,7 +688,7 @@
 
     <string name="nginx_url_pref">Nginx server url</string>
 
-    <string name="display_subbed_dubbed_settings">Muuji Animega Tujuman/\nQRL-hosaad leh</string>
+    <string name="display_subbed_dubbed_settings">Muuji Animega Tujuman/\'QRL-hosaad leh</string>
 
     <string name="resize_fit">Shaashada Le'eg</string>
 
@@ -726,7 +726,7 @@
 
     <string name="category_general">Habayn Guud</string>
 
-    <string name="random_button_settings">Badhan Xulasho\La'aanta</string>
+    <string name="random_button_settings">Badhan Xulasho\'La'aanta</string>
 
     <string name="random_button_settings_desc">Waxaad Hoyga Ka helaysa Badhan kuu dooraya Filim aadan xulan</string>
 
@@ -863,7 +863,7 @@
 	https://en.wikipedia.org/w/index.php?title=Pangram&oldid=225849300	https://en.wikipedia.org/wiki/The_quick_brown_fox_jumps_over_the_lazy_dog
     -->
 
-    <string name="subtitles_example_text">Sheekheenna Wiilkiisa Curad gabadhiisu\ Jimce Kasta Foox La'aan Ma Heesi Karto</string>
+    <string name="subtitles_example_text">Sheekheenna Wiilkiisa Curad gabadhiisu\' Jimce Kasta Foox La'aan Ma Heesi Karto</string>
 
     <string name="recommended">Lugugula Taliyey</string>
 
@@ -883,7 +883,7 @@
 
     <string name="home_source">laga keenay</string>
 
-    <string name="home_random">Xulasho\La'aan</string>
+    <string name="home_random">Xulasho\'La'aan</string>
 
     <string name="coming_soon">Goor dhow filo…</string>
 
