@@ -942,5 +942,9 @@
     <string name="extras">Dheeraadka</string>
 
     <string name="trailer">Goos-gooska</string>
+    
+    <string name="network_adress_example">Link to stream</string>
+    
+    <string name="referer">Referer</string>
 
 </resources>
