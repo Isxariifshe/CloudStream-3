@@ -182,7 +182,7 @@
 
     <string name="title_search">Baadh</string>
 
-    <string name="title_downloads">La Degis</string>
+    <string name="title_downloads">Soo dejin</string>
 
     <string name="title_settings">Habayn</string>
 
@@ -366,7 +366,7 @@
 
     <string name="picture_in_picture">Daaqad yar ku daawo</string>
 
-    <string name="picture_in_picture_des">Daawashadu wey kusii socon adiag oo daaqad yar ku daawan doona</string>
+    <string name="picture_in_picture_des">Daawashadu wey kuu sii socon adiga oo daaqad yar ku daawan doona</string>
 
     <string name="player_size_settings">Badhinka Cabirka Daaraha</string>
 
@@ -376,13 +376,13 @@
 
     <string name="player_subtitles_settings_des">Wax-ka-bedelka Qoraal-Hosaadka</string>
 
-    <string name="chromecast_subtitles_settings">Qoraal-Hosadka Shashadaha kale</string>
+    <string name="chromecast_subtitles_settings">Qoraal-Hosaadka Shaashadaha kale</string>
 
     <string name="chromecast_subtitles_settings_des">Wax-ka-bedelka Qoraal-Hosaadka Chromecastga</string>
 
     <string name="eigengraumode_settings">Habka Xawaare-kordhinta</string>
 
-    <string name="eigengraumode_settings_des">Daaraha ayaad ka heleysa boton xawaare kordhin ah</string>
+    <string name="eigengraumode_settings_des">Daaraha ayaad ka heleysa badhan xawaare kordhin ah</string>
 
     <string name="swipe_to_seek_settings">Jiid si aad u u dhaafiso</string>
 
@@ -416,7 +416,7 @@
 
     <string name="restore_settings">Kasoo Celi xogta fayl gurmad ah</string>
 
-    <string name="killswitch_settings">Kasoo Deji Appk Xogtiisa u dambeysey Github</string>
+    <string name="killswitch_settings">Kasoo Deji Appka Xogtiisa u dambeysey Github</string>
 
     <string name="killswitch_settings_des">Haddii aad rabto inaad hesho dhamaan adeeg-bixiyeyaash(xitaa kuwa xxun) halkan iska demi</string>
 
@@ -458,9 +458,9 @@
 
     <string name="kitsu_settings">ka keen boodhadhka filimka kitsu</string>
 
-    <string name="updates_settings">tus cusbooneysiinta App</string>
+    <string name="updates_settings">tus cusbooneysiinta Appka</string>
 
-    <string name="updates_settings_des">Si iskii ah ayuu u baadhi doona haddii Update yaallo</string>
+    <string name="updates_settings_des">Si iskii ah ayuu u baadhi doona haddii Update jiro</string>
 
     <string name="uprereleases_settings">ku cusbooneysii Tijaabada</string>
 
@@ -472,9 +472,9 @@
 
     <string name="anim">Anime app isla Horumeriyaha ayaa leh</string>
 
-    <string name="discord">Naga soo Discord</string>
+    <string name="discord">Soo Gal Discrod-kaayaga</string>
 
-    <string name="benene">sii benene horumeriyeyaasha</string>
+    <string name="benene">horumariyeyaasha benene sii</string>
 
     <string name="benene_des">benenka aad bixisey</string>
 
@@ -484,7 +484,7 @@
 
     <string name="no_links_found_toast">Wax lifaaq ah lama helin</string>
 
-    <string name="copy_link_toast">Waad koobi greysey Lafaaqa</string>
+    <string name="copy_link_toast">Waad koobi gareysey Lafaaqa</string>
 
     <string name="play_episode_toast">Xalqadda Daaro</string>
 
@@ -510,7 +510,7 @@
 
     <string name="delete_file">Masax Faylka</string>
 
-    <string name="delete">Maxas</string>
+    <string name="delete">Masax</string>
 
     <string name="cancel" translatable="false">@string/sort_cancel</string>
 
@@ -564,7 +564,7 @@
 
     <string name="anime">Anime</string>
 
-    <string name="torrent">Toorentiyos</string>
+    <string name="torrent">Toorenti</string>
 
     <string name="documentaries">Dokumentiyo</string>
 
@@ -640,7 +640,7 @@
 
     <string name="no_update_found">Wax Cusbooneysiin ah ma jirto</string>
 
-    <string name="check_for_update">Eeg in in Update yaallo</string>
+    <string name="check_for_update">Eeg in Update Jiro</string>
 
     <string name="video_lock">Xidh</string>
 
@@ -648,7 +648,7 @@
 
     <string name="video_source">Meesha laga keenay</string>
 
-    <string name="video_skip_op">Ka Gudub OP</string>
+    <string name="video_skip_op">Heesta hore ka gudub</string>
 
     <string name="dont_show_again">Mar dambe ha i tusin</string>
 
@@ -674,7 +674,7 @@
 
     <string name="video_disk_description">Laga yaabaa inuu cilladku keeno Habsami u socodka Haddaa meel sare ka dhigto</string>
 
-    <string name="dns_pref">DNS over HTTPS</string>
+    <string name="dns_pref">DNS oo HTTPS maraaya</string>
 
     <string name="dns_pref_summary">Wuxuu u fiican yahay inaad Xoog ku dhaafto ISP blocksKa</string>
 
@@ -736,7 +736,7 @@
 
     <string name="preferred_media_settings">Nooca aad daawashada ka heshid</string>
 
-    <string name="subtitles_encoding">Encodingka Qoraal-Hosaadka</string>
+    <string name="subtitles_encoding">Enkoodinka Qoraal-Hosaadka</string>
 
     <string name="category_preferred_media_and_lang">Luuqadda</string>
 
@@ -746,7 +746,7 @@
 
     <string name="tv_layout">Qaabka TVga oo kale</string>
 
-    <string name="phone_layout">Qaabka Mobileka oo kalr</string>
+    <string name="phone_layout">Qaabka Mobileka oo kale</string>
 
     <string name="emulator_layout">Qaabka Emulatorka</string>
 
@@ -873,7 +873,7 @@
 
     <string name="player_load_subtitles_online">internetka ka keen</string>
 
-    <string name="downloaded_file">File la dejiyey</string>
+    <string name="downloaded_file">Fayl la dejiyey</string>
 
     <string name="actor_main">ugu Muhiimsan</string>
 
@@ -943,8 +943,8 @@
 
     <string name="trailer">Goos-gooska</string>
     
-    <string name="network_adress_example">Link to stream</string>
+    <string name="network_adress_example">Lifaaqa daalacashada</string>
     
-    <string name="referer">Referer</string>
+    <string name="referer">Tixraacaha</string>
 
 </resources>
