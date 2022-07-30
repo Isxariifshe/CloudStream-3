@@ -17,7 +17,7 @@ class CineblogProvider : MainAPI() {
         TvType.TvSeries,
     )
 
-    override suspend fun getMainPage(): HomePageResponse {
+    override suspend fun getMainPage(page: Int, categoryName: String, categoryData: String): HomePageResponse {
         val items = ArrayList<HomePageList>()
         val urls = listOf(
             Pair("$mainUrl/genere/azione/", "Azione"),
@@ -126,7 +126,7 @@ class CineblogProvider : MainAPI() {
             val episodeList = ArrayList<Episode>()
             document.select("#seasons > div").reversed().map { element ->
                 val season = element.selectFirst("div.se-q > span.se-t")!!.text().toInt()
-                element.select("div.se-a > ul > li").filter { it.text()!="There are still no episodes this season" }.map{ episode ->
+                element.select("div.se-a > ul > li").filter { it -> it.text()!="There are still no episodes this season" }.map{ episode ->
                     val href = episode.selectFirst("div.episodiotitle > a")!!.attr("href")
                     val epNum =episode.selectFirst("div.numerando")!!.text().substringAfter("-").filter { it.isDigit() }.toIntOrNull()
                     val epTitle = episode.selectFirst("div.episodiotitle > a")!!.text()
@@ -155,12 +155,12 @@ class CineblogProvider : MainAPI() {
                 rating,
                 null,
                 null,
-                null,
+                mutableListOf(),
                 recomm
             )
         } else {
             val actors: List<ActorData> =
-                document.select("div.person").filter{it.selectFirst("div.img > a > img")?.attr("src")!!.contains("/no/cast.png").not()}.map { actordata ->
+                document.select("div.person").filter{ it -> it.selectFirst("div.img > a > img")?.attr("src")!!.contains("/no/cast.png").not()}.map { actordata ->
                     val actorName = actordata.selectFirst("div.data > div.name > a")!!.text()
                     val actorImage : String? = actordata.selectFirst("div.img > a > img")?.attr("src")
                     val roleActor = actordata.selectFirst("div.data > div.caracter")!!.text()
@@ -205,7 +205,7 @@ class CineblogProvider : MainAPI() {
 
         val url2= Regex("""src='((.|\\n)*?)'""").find(test.text)?.groups?.get(1)?.value.toString()
         val trueUrl = app.get(url2, headers = mapOf("referer" to mainUrl)).url
-        loadExtractor(trueUrl, data, callback)
+        loadExtractor(trueUrl, data, subtitleCallback, callback)
 
         return true
     }
